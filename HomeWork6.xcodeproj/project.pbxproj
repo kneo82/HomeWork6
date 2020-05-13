@@ -13,7 +13,35 @@
 		30EF49E4246C6799004E24E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EF49E3246C6799004E24E5 /* Assets.xcassets */; };
 		30EF49E7246C6799004E24E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EF49E6246C6799004E24E5 /* Preview Assets.xcassets */; };
 		30EF49EA246C6799004E24E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EF49E8246C6799004E24E5 /* LaunchScreen.storyboard */; };
+		30EF49F8246C6AB2004E24E5 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EF49F7246C6AB2004E24E5 /* ShareViewController.swift */; };
+		30EF49FB246C6AB2004E24E5 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EF49F9246C6AB2004E24E5 /* MainInterface.storyboard */; };
+		30EF49FF246C6AB2004E24E5 /* ConverterExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 30EF49F5246C6AB2004E24E5 /* ConverterExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		30EF4A07246C8457004E24E5 /* TextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EF4A06246C8457004E24E5 /* TextModel.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30EF49FD246C6AB2004E24E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30EF49D2246C6797004E24E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30EF49F4246C6AB2004E24E5;
+			remoteInfo = ConverterExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		30EF4A03246C6AB2004E24E5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				30EF49FF246C6AB2004E24E5 /* ConverterExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		30EF49DA246C6797004E24E5 /* HomeWork6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork6.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +52,24 @@
 		30EF49E6246C6799004E24E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		30EF49E9246C6799004E24E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30EF49EB246C6799004E24E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30EF49F5246C6AB2004E24E5 /* ConverterExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ConverterExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EF49F7246C6AB2004E24E5 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		30EF49FA246C6AB2004E24E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		30EF49FC246C6AB2004E24E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30EF4A04246C708D004E24E5 /* ConverterExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ConverterExtension.entitlements; sourceTree = "<group>"; };
+		30EF4A05246C70EC004E24E5 /* HomeWork6.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HomeWork6.entitlements; sourceTree = "<group>"; };
+		30EF4A06246C8457004E24E5 /* TextModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		30EF49D7246C6797004E24E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EF49F2246C6AB2004E24E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				30EF49DC246C6797004E24E5 /* HomeWork6 */,
+				30EF49F6246C6AB2004E24E5 /* ConverterExtension */,
 				30EF49DB246C6797004E24E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				30EF49DA246C6797004E24E5 /* HomeWork6.app */,
+				30EF49F5246C6AB2004E24E5 /* ConverterExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,10 +102,9 @@
 			children = (
 				30EF49DD246C6797004E24E5 /* AppDelegate.swift */,
 				30EF49DF246C6797004E24E5 /* SceneDelegate.swift */,
-				30EF49E1246C6797004E24E5 /* ContentView.swift */,
-				30EF49E3246C6799004E24E5 /* Assets.xcassets */,
-				30EF49E8246C6799004E24E5 /* LaunchScreen.storyboard */,
-				30EF49EB246C6799004E24E5 /* Info.plist */,
+				30EF4A0A246C8763004E24E5 /* Models */,
+				30EF4A09246C873E004E24E5 /* Views */,
+				30EF4A08246C86D2004E24E5 /* Support Files */,
 				30EF49E5246C6799004E24E5 /* Preview Content */,
 			);
 			path = HomeWork6;
@@ -75,6 +118,44 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		30EF49F6246C6AB2004E24E5 /* ConverterExtension */ = {
+			isa = PBXGroup;
+			children = (
+				30EF4A04246C708D004E24E5 /* ConverterExtension.entitlements */,
+				30EF49F7246C6AB2004E24E5 /* ShareViewController.swift */,
+				30EF49F9246C6AB2004E24E5 /* MainInterface.storyboard */,
+				30EF49FC246C6AB2004E24E5 /* Info.plist */,
+			);
+			path = ConverterExtension;
+			sourceTree = "<group>";
+		};
+		30EF4A08246C86D2004E24E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30EF4A05246C70EC004E24E5 /* HomeWork6.entitlements */,
+				30EF49EB246C6799004E24E5 /* Info.plist */,
+				30EF49E3246C6799004E24E5 /* Assets.xcassets */,
+				30EF49E8246C6799004E24E5 /* LaunchScreen.storyboard */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		30EF4A09246C873E004E24E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30EF49E1246C6797004E24E5 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30EF4A0A246C8763004E24E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30EF4A06246C8457004E24E5 /* TextModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,15 +166,34 @@
 				30EF49D6246C6797004E24E5 /* Sources */,
 				30EF49D7246C6797004E24E5 /* Frameworks */,
 				30EF49D8246C6797004E24E5 /* Resources */,
+				30EF4A03246C6AB2004E24E5 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				30EF49FE246C6AB2004E24E5 /* PBXTargetDependency */,
 			);
 			name = HomeWork6;
 			productName = HomeWork6;
 			productReference = 30EF49DA246C6797004E24E5 /* HomeWork6.app */;
 			productType = "com.apple.product-type.application";
+		};
+		30EF49F4246C6AB2004E24E5 /* ConverterExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EF4A00246C6AB2004E24E5 /* Build configuration list for PBXNativeTarget "ConverterExtension" */;
+			buildPhases = (
+				30EF49F1246C6AB2004E24E5 /* Sources */,
+				30EF49F2246C6AB2004E24E5 /* Frameworks */,
+				30EF49F3246C6AB2004E24E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConverterExtension;
+			productName = ConverterExtension;
+			productReference = 30EF49F5246C6AB2004E24E5 /* ConverterExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -106,6 +206,9 @@
 				ORGANIZATIONNAME = "Vitaliy Voronok";
 				TargetAttributes = {
 					30EF49D9246C6797004E24E5 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					30EF49F4246C6AB2004E24E5 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
@@ -124,6 +227,7 @@
 			projectRoot = "";
 			targets = (
 				30EF49D9246C6797004E24E5 /* HomeWork6 */,
+				30EF49F4246C6AB2004E24E5 /* ConverterExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +243,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		30EF49F3246C6AB2004E24E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EF49FB246C6AB2004E24E5 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -146,13 +258,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30EF4A07246C8457004E24E5 /* TextModel.swift in Sources */,
 				30EF49DE246C6797004E24E5 /* AppDelegate.swift in Sources */,
 				30EF49E0246C6797004E24E5 /* SceneDelegate.swift in Sources */,
 				30EF49E2246C6797004E24E5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		30EF49F1246C6AB2004E24E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EF49F8246C6AB2004E24E5 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30EF49FE246C6AB2004E24E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30EF49F4246C6AB2004E24E5 /* ConverterExtension */;
+			targetProxy = 30EF49FD246C6AB2004E24E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		30EF49E8246C6799004E24E5 /* LaunchScreen.storyboard */ = {
@@ -161,6 +290,14 @@
 				30EF49E9246C6799004E24E5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		30EF49F9246C6AB2004E24E5 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30EF49FA246C6AB2004E24E5 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -283,12 +420,14 @@
 		30EF49EF246C6799004E24E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HomeWork6/Support Files/HomeWork6.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeWork6/Preview Content\"";
 				DEVELOPMENT_TEAM = 5298J2LD58;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = HomeWork6/Info.plist;
+				INFOPLIST_FILE = "HomeWork6/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,18 +442,60 @@
 		30EF49F0246C6799004E24E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HomeWork6/Support Files/HomeWork6.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeWork6/Preview Content\"";
 				DEVELOPMENT_TEAM = 5298J2LD58;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = HomeWork6/Info.plist;
+				INFOPLIST_FILE = "HomeWork6/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kneo82.HomeWork6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30EF4A01246C6AB2004E24E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ConverterExtension/ConverterExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5298J2LD58;
+				INFOPLIST_FILE = ConverterExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kneo82.HomeWork6.ConverterExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30EF4A02246C6AB2004E24E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ConverterExtension/ConverterExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5298J2LD58;
+				INFOPLIST_FILE = ConverterExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kneo82.HomeWork6.ConverterExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -337,6 +518,15 @@
 			buildConfigurations = (
 				30EF49EF246C6799004E24E5 /* Debug */,
 				30EF49F0246C6799004E24E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EF4A00246C6AB2004E24E5 /* Build configuration list for PBXNativeTarget "ConverterExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EF4A01246C6AB2004E24E5 /* Debug */,
+				30EF4A02246C6AB2004E24E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -33,5 +33,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        if let ud = UserDefaults(suiteName: "group.com.kneo82.homeWork6") {
+            if let shareText = ud.object(forKey: "shareText") as? String {
+                print(shareText)
+            }
+        }
+        
+        return true
+    }
+    
 }
 

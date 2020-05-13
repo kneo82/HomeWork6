@@ -9,8 +9,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var model: TextModel
+    
     var body: some View {
-        Text("Hello, World!")
+        Text("\(model.text)")
     }
 }
 
